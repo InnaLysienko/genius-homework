@@ -1,0 +1,185 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v19-latin-regular.woff2") format("woff2");
+}
+:root {
+  --color-primary-light: #2b7fff;
+  --color-primary-dark: #011c44;
+  --color-primary-white: #f9f9f9;
+  --color-secondary-dark: #4a4a4a;
+  --color-secondary-white: #ffffff;
+  --color-secondary-gray: #747272;
+}
+
+/* Base */
+body {
+  color: var(--color-primary-dark);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+.hero-title {
+  color: var(--color-primary-light);
+  font-family: "Play", sans-serif;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.8;
+}
+.consultation {
+  color: var(--color-secondary-dark);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* button */
+.button-call {
+  color: var(--color-primary-white);
+  background-color: var(--color-primary-light);
+  border: 2px solid var(--color-primary-light);
+  font-weight: 600;
+  border-radius: 32px;
+  cursor: pointer;
+}
+.button-call:hover {
+  color: var(--color-primary-dark);
+  background-color: transparent;
+  font-weight: 600;
+}
+.button-freebook {
+  color: var(--color-primary-white);
+  background-color: var(--color-primary-light);
+  font-weight: 600;
+  border: 2px solid var(--color-primary-light);
+  border-radius: 32px;
+  cursor: pointer;
+}
+.button-freebook:hover {
+  color: var(--color-primary-dark);
+  background-color: transparent;
+  font-weight: 600;
+}
+
+/* link */
+ul.linkmainfon {
+  color: var(--color-primary-dark);
+  list-style-type: none;
+}
+.link {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+.link:hover {
+  color: var(--color-primary-light);
+  text-decoration: none;
+  font-weight: 700;
+}
+.linkfooter {
+  color: var(--color-secondary-white);
+  font-size: 16px;
+  text-decoration: none;
+}
+.linkfooter:hover {
+  color: var(--color-primary-light);
+  font-size: 16px;
+}
+/*section-title*/
+.section-title {
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+span.main-title {
+  color: var(--color-primary-light);
+}
+.traditional-text {
+  font-size: 22px;
+  line-height: 1.7;
+}
+span.traditional-logo {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.7;
+}
+
+/*advantages section*/
+.advantages-section {
+  color: #000000;
+  line-height: 1.3;
+}
+.chooseus-section {
+  color: var(--color-primary-light);
+}
+
+/*ourprocedure-section*/
+.procedure {
+  color: var(--color-primary-light);
+}
+.procedureface {
+  color: var(--color-secondary-white);
+}
+/*book appointment section*/
+.howtofindus {
+  color: var(--color-primary-light);
+}
+.bookandgetpresent {
+  color: var(--color-secondary-white);
+  font-size: 22px;
+  font-weight: 600;
+}
+span.free {
+  color: var(--color-primary-light);
+  font-size: 22px;
+  font-weight: 600;
+}
+.customerinformation {
+  color: var(--color-secondary-white);
+  background-color: var(--color-primary-dark);
+  font-size: 13px;
+  border: 2px solid var(--color-secondary-gray);
+  border-radius: 32px;
+  cursor: pointer;
+}
+.customerinformation:hover {
+  color: var(--color-secondary-white);
+  background-color: transparent;
+  font-size: 13px;
+}
+.confidentiality {
+  color: var(--color-secondary-gray);
+  font-size: 12px;
+  line-height: 1.5;
+}
+/*footer-section*/
+ul.footerfon {
+  color: var(--color-primary-light);
+  background-color: var(--color-primary-dark);
+  list-style-type: none;
+}
+div.footerfon {
+  color: var(--color-primary-light);
+  background-color: var(--color-primary-dark);
+  list-style-type: none;
+}
+.footerlogo {
+  background-color: var(--color-primary-dark);
+}
+.footerfonn {
+  color: var(--color-primary-light);
+  background-color: var(--color-primary-dark);
+}
+.protection {
+  color: var(--color-secondary-gray);
+  font-size: 13px;
+  background-color: var(--color-primary-dark);
+}
