@@ -1,0 +1,21 @@
+.background {
+  background-image: url(../images/secondbackground.png);
+  background-repeat: no-repeat;
+  background-position: center 320px;
+}
+.footer-background {
+  position: relative;
+  background-color: var(--color-primary-dark);
+  background-image: url(../images/footer.png);
+  padding-top: 56px;
+}
+.footer-background::after {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url(../images/bottles-footer.png);
+  bottom: 0px;
+  content: '';
+  width: 245px;
+  height: 152px;
+  right: 0;
+}

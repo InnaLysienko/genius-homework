@@ -1,0 +1,53 @@
+.link {
+  color: var(--color-primary-dark);
+  font-weight: 400;
+  transition: all 0.2s;
+}
+
+.link:hover {
+  color: var(--color-primary-light);
+  font-weight: 700;
+  transform: scale(1.2);
+}
+.header-link {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+.linkfooter {
+  flex-grow: 1;
+}
+.linkfooter {
+  color: var(--color-secondary-white);
+  font-size: 16px;
+  margin-bottom: 16px;
+  transition: all 0.2s;
+}
+.linkfooter:hover {
+  color: var(--color-primary-light);
+  font-size: 16px;
+  transform: scale(1.2);
+}
+.link-address {
+  color: var(--color-secondary-white);
+  font-size: 16px;
+  margin-bottom: 16px;
+  transition: all 0.2s;
+}
+.link-address:hover {
+  color: var(--color-primary-light);
+  transform: scale(1.05);
+}
+.link-icon {
+  fill: var(--color-primary-dark);
+  font-weight: 400;
+  transition: all 0.2s;
+}
+.link-icon:hover {
+  fill: var(--color-primary-light);
+  transform: scale(1.1);
+}
+.form-terms-link {
+  color: var(--color-secondary-gray);
+  text-underline-offset: 2px;
+}

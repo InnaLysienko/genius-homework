@@ -1,0 +1,51 @@
+.footer-container {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 56px;
+}
+.footer-nav {
+  display: flex;
+  flex-basis: 50%;
+  gap: 20px;
+}
+.footer-logo {
+  flex-grow: 1;
+}
+.footer-menu {
+  font-size: 16px;
+  color: var(--color-secondary-white);
+  margin-bottom: 16px;
+  flex-grow: 1;
+}
+.footer-address {
+  display: flex;
+  flex-basis: 50%;
+  gap: 20px;
+}
+.footer-contacts {
+  display: flex;
+  gap: 186px;
+}
+.footer-address-list {
+  display: flex;
+  gap: 16px;
+}
+.footer-info {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-icon {
+  fill: var(--color-secondary-white);
+  margin-right: 16px;
+  transition: all 0.2s;
+}
+.footer-icon:hover {
+  fill: var(--color-primary-light);
+  transform: scale(1.1);
+}
+
+.protection {
+  color: var(--color-secondary-gray);
+  font-size: 13px;
+}
